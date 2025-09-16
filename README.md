@@ -5,7 +5,8 @@ This is a version of the hp-wmi kernel module that implements some of the featur
 
 It's totally experimental right now, and could easily crash your machine. 
 
-**USE AT YOUR OWN RISK**
+> [!WARNING]
+> The fork was intended for my usage with HP OMEN 15-dc0xxx and the latest kernel with specific modifications such as binding OMEN key to Home, so I don't have to use Fn key every time. I didn't test it on other machines, so **use it at your own risk!**
 
 Currently working:
 
@@ -33,5 +34,5 @@ Omen and other hotkeys are bound to regular X11 keysyms, use your chosen desktop
 ## To do:
 
 - [ ] FourZone brightness control
-- [ ] Fan control 
+- [x] Fan control (already implemented in the kernel?)
 
